@@ -1,6 +1,6 @@
 ## 运行
 ```
-pm2 start index.js --watch --name 'webhook'
+pm2 start webhook.js --watch --name 'webhook'
 ```
 ## 配置
 
