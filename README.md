@@ -1,8 +1,8 @@
-# 运行
+## 运行
 ```
 pm2 start index.js --watch --name 'webhook'
 ```
-# 配置
+## 配置
 
 将本项目 git clone 到项目同级目录中，如/www/
 
@@ -21,14 +21,14 @@ config.json
 }
 ```
 
-# nginx 配置
+## nginx 配置
 ```
 location /xxx-hook {
   proxy_pass http://127.0.0.1:8084/xxx-hook;
 }
 ```
 
-# 访问
+## 访问
 
 webhook 地址为 `http://yyy.com:8084/xxx-hook`
 
