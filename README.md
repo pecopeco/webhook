@@ -30,7 +30,7 @@ location /xxx-hook {
 
 ## 访问
 
-webhook 地址为 `http://yyy.com:8084/xxx-hook`
+webhook 地址为 `http://yyy.com/xxx-hook`
 
 测试端口是否打开  
 
