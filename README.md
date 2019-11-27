@@ -21,6 +21,12 @@ config.json
 }
 ```
 
+## 项目build.sh配置
+
+```
+git pull && npm run build
+```
+
 ## nginx 配置
 ```
 location /xxx-hook {
